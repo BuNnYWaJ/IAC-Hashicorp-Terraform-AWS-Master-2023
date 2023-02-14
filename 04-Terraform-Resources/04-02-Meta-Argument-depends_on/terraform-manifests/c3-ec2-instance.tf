@@ -1,6 +1,6 @@
 # Resource-8: Create EC2 Instance
 resource "aws_instance" "my-ec2-vm" {
-  ami                    = "ami-047a51fa27710816e" # Amazon Linux
+  ami                    = "ami-0aa7d40eeae50c9a9" # Amazon Linux
   instance_type          = "t2.micro"
   key_name               = "terraform-key"
   subnet_id              = aws_subnet.vpc-dev-public-subnet-1.id

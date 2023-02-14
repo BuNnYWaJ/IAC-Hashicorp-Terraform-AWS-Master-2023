@@ -16,6 +16,6 @@ provider "aws" {
 
 # Resource Block
 resource "aws_instance" "ec2demo" {
-  ami           = "ami-03cf1a25c0360a382" # Amazon Windows in us-east-1, update as per your region
+  ami           = "ami-0aa7d40eeae50c9a9" # Amazon Windows in us-east-1, update as per your region
   instance_type = "t2.micro"
 }
