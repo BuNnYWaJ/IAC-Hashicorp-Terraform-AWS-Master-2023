@@ -12,7 +12,7 @@ resource "aws_instance" "my-ec2-vm" {
     sudo yum install httpd -y
     sudo systemctl enable httpd
     sudo systemctl start httpd
-    echo "<h1>Welcome to StackSimplify ! AWS Infra created using Terraform in us-east-1 Region</h1>" > /var/www/html/index.html
+    echo "<h1>Welcome to TechWorld_With_BuNnY ! AWS Infra created using Terraform in us-east-1 Region</h1>" > /var/www/html/index.html
     EOF
   tags = {
     "Name" = "myec2vm"

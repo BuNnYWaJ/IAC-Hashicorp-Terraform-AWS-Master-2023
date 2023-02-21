@@ -79,7 +79,7 @@
 - Anyone who want to learn Terraform from a practical perspective 
 
 ## Github Repositories used for this course
-- [HashiCorp Certified: Terraform Associate](https://github.com/Bharathwaj-KS/Hashicorp-Certified-Terraform-Associate-on-AWS-Master)
+- [HashiCorp Certified: Terraform Associate]https://github.com/BuNnYWaJ/IAC-Hashicorp-Terraform-AWS-Master-2023.git
 
 - **Important Note:** Please go to these repositories and FORK these repositories and make use of them during the course.
 
